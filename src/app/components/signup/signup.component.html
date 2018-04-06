@@ -1,0 +1,25 @@
+<section>
+  <div class="section-wrapper layout-grid-frame">
+    <div id="signup-form" class="layout-twothirds-center">
+      <div id="signup-password" class="quick-switch">
+        <div class="info-message hidden"></div>
+        <h1>Create a Trello Account</h1>
+        <span class="sign-in-account">or
+          <a href="/login">sign in to your account</a>
+        </span>
+        <div class="sign-up-container">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="e.g., Arya Stark" [(value)]="user.name">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="e.g., aaa@aaa.aaa" [(value)]="user.email">
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="e.g., •••••" [(value)]="user.password">
+
+          <button (click)="onSubmit()" type="button" class="button button-green">Create New Account</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

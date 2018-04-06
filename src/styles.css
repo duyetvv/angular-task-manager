@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  padding-top: 3.6em;
+  font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.44em;
+  color: #4d4d4d;
+}
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+audio, canvas, img, svg, video {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+}
